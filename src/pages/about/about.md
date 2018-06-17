@@ -1,7 +1,7 @@
 ---
 contentType: about
-path: /about
-title: About Me
+path: /sobre
+title: Sobre a Essenciale
 ---
 This is a placeholder page.
 

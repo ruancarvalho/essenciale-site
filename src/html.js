@@ -31,6 +31,7 @@ module.exports = class HTML extends React.Component {
           />
           <script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
           <script src='/admin/netlify_redirect.js' />
+          <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossOrigin="anonymous" />
           {this.props.headComponents}
           {css}
         </head>

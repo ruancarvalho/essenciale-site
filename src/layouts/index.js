@@ -5,12 +5,11 @@ import graphql from 'graphql'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-// code syntax-highlighting theme
-// feel free to change it to another one
-import 'prismjs/themes/prism-twilight.css'
-
 // main site style
-import './index.scss'
+import '../scss/essenciale.scss'
+
+import CallToAction from '../templates/cta'
+import Footer from '../templates/footer'
 
 const TemplateWrapper = ({ children, data }) => {
   let user
@@ -20,7 +19,7 @@ const TemplateWrapper = ({ children, data }) => {
   return (
     <div className='App'>
       <Helmet title={data.site.siteMetadata.title} />
-      <div className='navbar navbar-expand-lg navbar-dark bg-primary'>
+      <nav className='navbar navbar-expand-lg static-top'>
         <Container>
           <Link to='/' className='navbar-brand'>{data.site.siteMetadata.title}</Link>
           <ul className='nav navbar-nav'>
@@ -32,12 +31,26 @@ const TemplateWrapper = ({ children, data }) => {
             )}
 
             <li className='nav-item'>
-              <Link to='/about' className='nav-link'>About</Link>
+              <Link to='/como-chegar' className='nav-link'>
+                R. Valério Botelho de Andrade, 621 - São Francisco
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <a href="http://facebook.com/essencialemao" target="_blank" className='nav-link'>
+                <i className="fab fa-facebook fa-fw"></i>
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a href="http://instagram.com/essencialemao" target="_blank" className='nav-link'>
+                <i className="fab fa-instagram fa-fw"></i>
+              </a>
             </li>
           </ul>
         </Container>
-      </div>
+      </nav>
       <div className='pageContent'>{children()}</div>
+      <CallToAction />
+      <Footer />
     </div>
   )
 }

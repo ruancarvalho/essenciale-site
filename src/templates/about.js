@@ -9,7 +9,7 @@ export default function Template ({ data }) {
     <div>
       <Helmet title={`${post.frontmatter.title} | ${data.site.siteMetadata.title}`} />
       <Container>
-        <h1 className='display-3'>{post.frontmatter.title}</h1>
+        <h1 className='display-3 mt-3'>{post.frontmatter.title}</h1>
       </Container>
       <Container dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
