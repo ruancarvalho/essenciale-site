@@ -11,3 +11,15 @@ h6 {
   @include body-font;
   font-weight: 700;
 }
+
+.gmaps {
+  height: 30em;
+
+  > iframe {
+    border:none;
+  }
+}
+
+.pageContent {
+  margin-top: 56px;
+}

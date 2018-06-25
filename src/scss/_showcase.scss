@@ -12,3 +12,21 @@
     }
   }
 }
+
+.see-all {
+  opacity: 0.85;
+
+  // a {
+  //   display: block;
+  //   text-decoration: none;
+  // }
+}
+
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: $white;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}

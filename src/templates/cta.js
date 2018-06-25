@@ -15,15 +15,15 @@ const CTA = ({ data }) => (
         </div>
       </div>
       <div className="row">
-        <div className="col-sm-4 ml-auto text-center">
+        <div className="col-sm-2 ml-auto text-center">
           <i className="fab fa-whatsapp fa-3x mb-3"></i>
           <p>92 98231 6646</p>
         </div>
-        <div className="col-sm-4 mr-auto text-center">
+        <div className="col-sm-2 mr-auto text-center">
           <i className="fab fa-whatsapp fa-3x mb-3"></i>
           <p>123-456-6789</p>
         </div>
-        <div className="col-sm-4 mr-auto text-center">
+        <div className="col-sm-2 mr-auto text-center">
           <i className="fab fa-whatsapp fa-3x mb-3"></i>
           <p>123-456-6789</p>
         </div>

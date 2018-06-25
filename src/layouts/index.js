@@ -9,6 +9,8 @@ import Helmet from 'react-helmet'
 import '../scss/essenciale.scss'
 
 import CallToAction from '../templates/cta'
+import GMap from '../templates/gmap'
+import SocialMedia from '../templates/social'
 import Footer from '../templates/footer'
 
 const TemplateWrapper = ({ children, data }) => {
@@ -19,37 +21,43 @@ const TemplateWrapper = ({ children, data }) => {
   return (
     <div className='App'>
       <Helmet title={data.site.siteMetadata.title} />
-      <nav className='navbar navbar-expand-lg static-top'>
+      <nav className='navbar navbar-expand-lg navbar-light bg-light fixed-top'>
         <Container>
           <Link to='/' className='navbar-brand'>{data.site.siteMetadata.title}</Link>
-          <ul className='nav navbar-nav'>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className='navbar-nav ml-auto'>
+              {user && (
+                <li className='nav-item'>
+                  <a href='/admin' className='nav-link'>Admin</a>
+                </li>
+              )}
 
-            {user && (
               <li className='nav-item'>
-                <a href='/admin' className='nav-link'>Admin</a>
+                <Link to='/como-chegar' className='nav-link'>
+                  R. Valério Botelho de Andrade, 621 - São Francisco
+                </Link>
               </li>
-            )}
-
-            <li className='nav-item'>
-              <Link to='/como-chegar' className='nav-link'>
-                R. Valério Botelho de Andrade, 621 - São Francisco
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <a href="http://facebook.com/essencialemao" target="_blank" className='nav-link'>
-                <i className="fab fa-facebook fa-fw"></i>
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a href="http://instagram.com/essencialemao" target="_blank" className='nav-link'>
-                <i className="fab fa-instagram fa-fw"></i>
-              </a>
-            </li>
-          </ul>
+              <li className='nav-item'>
+                <a href="http://facebook.com/essencialemao" target="_blank" className='nav-link'>
+                  <i className="fab fa-facebook fa-fw"></i>
+                </a>
+              </li>
+              <li className='nav-item'>
+                <a href="http://instagram.com/essencialemao" target="_blank" className='nav-link'>
+                  <i className="fab fa-instagram fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </Container>
       </nav>
       <div className='pageContent'>{children()}</div>
       <CallToAction />
+      <GMap />
+      <SocialMedia />
       <Footer />
     </div>
   )
