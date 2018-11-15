@@ -1,0 +1,121 @@
+.section-title hr:after,
+.section-title hr:before,
+.boxed-btn,
+.preloader,
+.header-social li a:hover,
+.main-menu li.active a:before,
+.main-menu li a:before,
+.mean-container a.meanmenu-reveal,
+.header-slider .boxed-btn,
+.header-slider .owl-next:hover,
+.header-slider .owl-prev:hover,
+.service-box figure figcaption .boxed-btn,
+.nav-tabs .nav-link.active,
+.feature-box:hover .feature-icon,
+.pricing-box hr:after,
+.pricing-box hr:before,
+.pricing-box:hover .boxed-btn,
+.recomended-text,
+.single-product .sale,
+.single-product .overlay li a:hover,
+.product-carousel .owl-next:hover,
+.product-carousel .owl-prev:hover,
+.single-beauticians .social li a:hover,
+#subscribe,
+.scrollup,
+.gallery-tab-sorting li a:after,
+.gallery-page .gallery-item figcaption ul li a:hover,
+.portfolio-tab-sorting li a:hover,
+.portfolio-tab-sorting li a.active,
+li.page-item .page-link:hover,
+li.page-item.active .page-link,
+.subscribe-wrapper button,
+#footer-widgets .widget-title:after,
+.widget-search input[type=button],
+.widget-tag li a:hover,
+.weekdays,
+.days li .active {
+    background: #753B85;
+}
+
+
+.recomended .boxed-btn {
+    background: #753B85 !important;
+}
+
+
+#header-top i,
+.input__label,
+.main-menu li.c-dropdowns.active li a:hover,
+.main-menu ul li ul.cr-dropdown-menu li.active a,
+.main-menu li.active a,
+.main-menu li a:hover,
+.sidenav .close-sidenav,
+.cart-remove:hover,
+.sidenav .cart-item-description p,
+.sb-search-input,
+.header-slider h3,
+.contact-wrapper i,
+.service-box p.price,
+.nav-tabs a.nav-link:hover,
+.tab-content ul li h4:hover,
+.tab-content ul li h4 .price,
+.pricing-box .boxed-btn,
+#counter .single-box i,
+.single-product .price,
+.single-product .overlay li a,
+.single-beauticians .social li a,
+#subscribe-form button,
+.copyright-text a:hover,
+.scrollup:hover,
+#breadcrumb-area ul li a,
+#welcome .section-title h3,
+.welcome-box:hover a,
+#wcu ul li:before,
+.gallery-tab-sorting li a:hover,
+.gallery-tab-sorting li a.active,
+.gallery-page .gallery-item figcaption ul li a,
+.info-box i,
+.blog-post .post-title a:hover,
+.blog-post:hover a.read-more,
+.single-post .post-header .text-right li a:hover,
+.meta-data ul li a:hover,
+.comment-date:hover,
+.media ul li.comment-replay,
+.coming-soon-wrapper h1 span,
+.count-area ul li,
+.copyright a,
+.testimonial-carousel .owl-next:hover,
+.testimonial-carousel .owl-prev:hover,
+.widget_links ul li a:hover,
+li.latest-news h6:hover,
+.widget-search input[type=button]:hover,
+.widget-acrhives li a:hover,
+.recent-post h6:hover {
+    color: #753B85;
+}
+
+.input__field--hantus:focus+.input__label--hantus .graphic--hantus,
+.input--filled .graphic--hantus {
+    stroke: #753B85;
+}
+
+.pricing-box .boxed-btn {
+    color: #753B85;
+}
+
+.beautician-footer-text h5,
+.boxed-btn:hover {
+    color: #753B85 !important;
+}
+
+.feature-box:hover .feature-icon,
+.pricing-box .boxed-btn,
+.appoinment-wrapper input:focus,
+.appoinment-wrapper textarea:focus,
+.appoinment-wrapper select:focus,
+li.page-item .page-link:hover,
+li.page-item.active .page-link,
+.portfolio-tab-sorting li a:hover {
+    border-color: #753B85 !important;
+}

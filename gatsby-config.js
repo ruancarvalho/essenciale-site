@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Essenciale Manaus',
+    logo: 'https://res.cloudinary.com/essencialemanaus/image/upload/c_scale,w_300/v1528044563/essenciale-brand.png',
+    footer: 'https://res.cloudinary.com/essencialemanaus/image/upload/c_scale,w_250/v1542290280/essenciale-logo-h-t.png'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
